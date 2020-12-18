@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+//------------------------------------
+// RESET
+//------------------------------------
+
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html {
+  overflow-y: scroll;
+}
+
+html,
+body {
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1f1;
+  color: #444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  font-smooth: always;
+  height: auto;
+  margin: 0;
+}

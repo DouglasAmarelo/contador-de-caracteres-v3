@@ -1,0 +1,41 @@
+@import './base/reset';
+
+@import './components/container';
+@import './components/header';
+@import './components/footer';
+
+.header {
+  font-size: 22px;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.counter {
+  textarea {
+    border: none;
+    min-height: 150px;
+    padding: 1em;
+    resize: vertical;
+    width: 100%;
+  }
+}
+
+.result {
+  display: flex;
+  font-family: monospace;
+  justify-content: space-around;
+  margin-top: 1em;
+
+  div {
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+  }
+
+  strong {
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-left: 0.2em;
+  }
+}

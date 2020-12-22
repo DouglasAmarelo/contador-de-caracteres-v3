@@ -1,0 +1,17 @@
+{
+  "name": "Contador de Caracteres",
+  "short_name": "Contador de Caracteres",
+  "version": "1.0.0",
+  "description": "Contador de Caracteres para Anúncios no Facebook, Adwords e para SEO e SEM.",
+  "manifest_version": 2,
+  "icons": {
+    "32": "ico_32.png",
+    "128": "ico_128.png"
+  },
+  "browser_action": {
+    "default_icon": "ico_32.png",
+    "default_title": "Contador de Caracteres",
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-hoy/ZSKw/MBWnSwsOkPiBLhnF1eucUVoNQ1EDNaxEdQ=' https://www.google-analytics.com; object-src 'self'"
+}

@@ -7,7 +7,7 @@ const app = () => {
   const $words = $counter.querySelector('.words strong');
   const $numbers = $counter.querySelector('.numbers strong');
 
-  const countCharacters = text => text.split('').length;
+  const countCharacters = text => [...text].length;
 
   const countWords = text => (text ? text.split(/\s\w/gim).length : 0);
 
